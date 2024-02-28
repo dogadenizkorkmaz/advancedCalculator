@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
 public class Main {
-    //// Kullanıcıdan sıfır girilene kadar bir dizi sayı alır ve bunların toplamını hesaplar.
+ 
     static void plus() {
+        static void plus() {
         Scanner scan = new Scanner(System.in);
         int number, result = 0, i = 1;
-        //Sonsuz bir döngü başlatılır. Kullanıcı sıfır girene kadar bu döngü devam eder.
         while (true) {
-            System.out.print(i++ + ". sayı :"); //sayının indeksiyle birlikte ekrana yazdırılır.
+            System.out.print(i++ + ". sayı :");
             number = scan.nextInt();
             if (number == 0) {
                 break;
